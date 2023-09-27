@@ -4,7 +4,6 @@ import requests
 @st.cache_data
 def projects():
     st.title("My Projects 🤖")
-    st.balloons()
     ignore_list = ['arjunprakash027','collections','Django_application']
     response = requests.get("https://api.github.com/users/arjunprakash027/repos")
 

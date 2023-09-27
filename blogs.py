@@ -4,7 +4,6 @@ import streamlit as st
 @st.cache_data
 def blogs():
     st.title("My Blogs 👾")
-    st.balloons()
     rss_url = "https://medium.com/feed/@arjunprakash027"
     feed = feedparser.parse(rss_url)
 

@@ -14,8 +14,6 @@ def home_page():
     myImg,myDesc = st.columns(2)
     with myImg:
         st.image(image2)
-        st.image(image3)
-        st.image(image)
     with myDesc:
         st.write("""
 

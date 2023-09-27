@@ -8,7 +8,7 @@ from projects import projects
 from blogs import blogs
 from career import career,acheivements
 
-
+st.set_page_config(layout="wide")
 st.sidebar.text("Arjun's Portfolio")
 
 

@@ -27,8 +27,6 @@ def home_page():
 
     Currently, I'm on an exciting quest to delve into the world of AI models, researching Machine Learning Algorithms, and crafting scalable backends using Python frameworks. 🧠🌟
 
-    Oh, and did I mention that I've also mastered React to tame the wild frontends? 🚀🎨
-
     Join me on this epic journey through the digital cosmos as I continue to explore, innovate, and create! 🌌🚀🔥""")
     
     st.caption('👈 have a look at other pages')

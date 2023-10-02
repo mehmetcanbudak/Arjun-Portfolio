@@ -7,6 +7,7 @@ from stuff_i_know import stuff_i_know
 from projects import projects,gists
 from blogs import blogs
 from career import career,acheivements
+from things_i_learn import learnings
 
 st.set_page_config(layout="wide")
 st.sidebar.text("Arjun's Portfolio")
@@ -14,7 +15,7 @@ st.sidebar.text("Arjun's Portfolio")
 
 selected_page = st.sidebar.selectbox(
     "Select Page",
-    ("🥸 Introduction", "💸 My Stack", "🔭 Projects","🚀 Blogs","🛣️ Career")
+    ("🥸 Introduction", "💸 My Stack", "🔭 Projects","🚀 Blogs","🛣️ Career","🪙 Resources I learn from")
 )
 
 with st.sidebar:
@@ -49,4 +50,6 @@ if selected_page == "🛣️ Career":
     career()
     acheivements()
 
+if selected_page == "🪙 Resources I learn from":
+    learnings()
 

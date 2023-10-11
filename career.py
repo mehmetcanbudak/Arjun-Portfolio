@@ -47,16 +47,16 @@ def acheivements():
 def open_source():
     st.title("Open Source")
     with st.expander("csv2notion-neo"):
-        st.link_button("https://github.com/TheAcharya/csv2notion-neo/tree/master")
+        st.link_button("github link","https://github.com/TheAcharya/csv2notion-neo/tree/master")
 
-    ex1,ex2,ex3 = st.columns(3)
+        ex1,ex2,ex3 = st.columns(3)
 
-    with ex1:
-        st.write("❥ csv2notion-neo is an python based cli tool that helps to upload and merge csv files to notion database")
+        with ex1:
+            st.write("❥ csv2notion-neo is an python based cli tool that helps to upload and merge csv files to notion database")
 
-    with ex2:
-        st.write("❥ Orginally developed by Vladilen Zhdanov and idea by Vigneswaran Rajkumar, the project is currently maintained by me")
+        with ex2:
+            st.write("❥ Orginally developed by Vladilen Zhdanov and idea by Vigneswaran Rajkumar, the project is currently maintained by me")
 
-    with ex3:
-        st.write("❥ I keep up the project with changes in notion API and add new features once in a while.")
+        with ex3:
+            st.write("❥ I keep up the project with changes in notion API and add new features once in a while.")
         
